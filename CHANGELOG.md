@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.39.0](https://github.com/Viren070/AIOStreams/compare/v2.38.1...v2.39.0) (2026-11-17)
+
+
+### Features
+
+* **android:** blend subtitles on the GPU ([38d423e](https://github.com/Viren070/AIOStreams/commit/38d423e5eae6c0cf8329ebde8950036e9f4dbae1))
+* **builtins/xtream:** add a tested endpoint option and test the Xtream login with it ([ea65dec](https://github.com/Viren070/AIOStreams/commit/ea65decdb6e9dfecbfd9bf7efd3b45ebe151869c))
+* **frontend:** link the trackers tab to the users tab when no user syncs ([1bad9f5](https://github.com/Viren070/AIOStreams/commit/1bad9f5ee5ca2648cc99b0ae1ca94569951a1616))
+* **web:** add a Live TV setting that takes channels off home or hides them ([9516158](https://github.com/Viren070/AIOStreams/commit/951615867e0fd000f613f4da1b3073a9f1e982e7))
+* **web:** add switches for each player gesture ([8aa6b0f](https://github.com/Viren070/AIOStreams/commit/8aa6b0f0e435da4be3b8698b2b3a907add6cf3b8))
+* **web:** make the card preview one switch that opens by keys and pops out by mouse ([8bb813a](https://github.com/Viren070/AIOStreams/commit/8bb813a0f6afef7eea513510c51386c1d6dea03e))
+* **web:** pick the pages the artwork background shows behind ([b0d6c44](https://github.com/Viren070/AIOStreams/commit/b0d6c445b24b5e8a6558ab54155c704e37f7a9a1))
+
+
+### Bug Fixes
+
+* **builtins/xtream:** answer Xtream provider failures with a 502 and their reason ([fc710dc](https://github.com/Viren070/AIOStreams/commit/fc710dc9314a87f81bf1937abfb3e9fef014a629))
+* **jellyfin:** drop removed addons from users' tracker picks ([7f44816](https://github.com/Viren070/AIOStreams/commit/7f44816f1f2823087fe6b9347d7f40e8e7351ee7))
+* **presets/yastream:** parse yastream's HLS streams as http rather than live ([4778b53](https://github.com/Viren070/AIOStreams/commit/4778b5319efcabd5d8737277b62d39f904e79f06)), closes [#1825](https://github.com/Viren070/AIOStreams/issues/1825)
+* **ui:** scroll carousels with sideways wheel gestures in place of the wheel drag plugin ([dba34a5](https://github.com/Viren070/AIOStreams/commit/dba34a50c2e00638871a8658a819fc0c657ab8ce))
+* **web:** bring up the controls on OK during a live stream ([28231d8](https://github.com/Viren070/AIOStreams/commit/28231d88d02e521ef6b9dce9fe95cf2ea2531a27))
+* **web:** clear the paper behind a select's scroll arrows on glass panels ([4704d5f](https://github.com/Viren070/AIOStreams/commit/4704d5f535d479c7d5f60854d1facde59babdba1))
+* **web:** ignore a keyup with no key while nothing is held ([6e773ce](https://github.com/Viren070/AIOStreams/commit/6e773ce0cff7c41afa85049ae335a80952367262))
+* **web:** save a found server at the address it answered at after redirects ([90915dc](https://github.com/Viren070/AIOStreams/commit/90915dc4818870f45c08c295901396387ba962ee)), closes [#1820](https://github.com/Viren070/AIOStreams/issues/1820)
+* **web:** skip the browser's position state for live streams ([c9cfa00](https://github.com/Viren070/AIOStreams/commit/c9cfa008033d32b6e731ba633b1544a64a8cb879))
+
 ## [2.38.1](https://github.com/Viren070/AIOStreams/compare/v2.38.0...v2.38.1) (2026-11-14)
 
 
