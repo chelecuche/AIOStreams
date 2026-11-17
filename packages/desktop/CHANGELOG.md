@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.25.1](https://github.com/Viren070/AIOStreams/compare/desktop-v0.25.0...desktop-v0.25.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* **desktop:** leave chapters out of the trailer EDL ([1ac57d7](https://github.com/Viren070/AIOStreams/commit/1ac57d77c92a30e2dd709a43844b729f52814e53))
+* **desktop:** place the video frame by the web view's rasterization scale on Windows ([e5e404c](https://github.com/Viren070/AIOStreams/commit/e5e404cd3f4f764920ab3e0c6f2586acac763ab9))
+* **desktop:** set tls-verify in the Flatpak ([e953181](https://github.com/Viren070/AIOStreams/commit/e9531811f75f52cf95d9c312940c1e810cd4d400))
+* **desktop:** show the picture-in-picture window on every Space on macOS ([44e31fc](https://github.com/Viren070/AIOStreams/commit/44e31fc88602876b0571b73ffc4c4c099ab77cb7)), closes [#1818](https://github.com/Viren070/AIOStreams/issues/1818)
+
 ## [0.25.0](https://github.com/Viren070/AIOStreams/compare/desktop-v0.24.0...desktop-v0.25.0) (2026-11-14)
 
 
